@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22B2290193EBB60006AA4C7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C22B2292193EBB60006AA4C7 /* Localizable.strings */; };
+		C57E03D2193980FF00CD84EC /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57E03D1193980FF00CD84EC /* LoginController.xib */; };
+		C5A01C2719304FB8003BAD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2619304FB8003BAD15 /* Foundation.framework */; };
+		C5A01C2919304FB8003BAD15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2819304FB8003BAD15 /* CoreGraphics.framework */; };
+		C5A01C2B19304FB8003BAD15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2A19304FB8003BAD15 /* UIKit.framework */; };
+		C5A01C3319304FB8003BAD15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A01C3219304FB8003BAD15 /* main.m */; };
+		C5A01C3719304FB8003BAD15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A01C3619304FB8003BAD15 /* AppDelegate.m */; };
+		C5A01C3919304FB8003BAD15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C3819304FB8003BAD15 /* Images.xcassets */; };
+		C5A01C4019304FB8003BAD15 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C3F19304FB8003BAD15 /* XCTest.framework */; };
+		C5A01C4119304FB8003BAD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2619304FB8003BAD15 /* Foundation.framework */; };
+		C5A01C4219304FB8003BAD15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2A19304FB8003BAD15 /* UIKit.framework */; };
+		C5A01C4A19304FB8003BAD15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C4819304FB8003BAD15 /* InfoPlist.strings */; };
+		C5A01C4C19304FB8003BAD15 /* CafePOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A01C4B19304FB8003BAD15 /* CafePOSTests.m */; };
+		C5A01C5919307CDA003BAD15 /* bgLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C5819307CDA003BAD15 /* bgLogin.png */; };
+		C5A01C5D19307D3E003BAD15 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A01C5B19307D3E003BAD15 /* LoginController.m */; };
+		C5A01C601930891A003BAD15 /* bgLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C5F19308919003BAD15 /* bgLogin@2x.png */; };
+		C5A01C6319308EE2003BAD15 /* imgLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6119308EE2003BAD15 /* imgLogo.png */; };
+		C5A01C6419308EE2003BAD15 /* imgLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6219308EE2003BAD15 /* imgLogo@2x.png */; };
+		C5A01C6919309805003BAD15 /* btnRememberMe_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6519309804003BAD15 /* btnRememberMe_Selected.png */; };
+		C5A01C6A19309805003BAD15 /* btnRememberMe_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6619309805003BAD15 /* btnRememberMe_Selected@2x.png */; };
+		C5A01C6B19309805003BAD15 /* btnRememberMe.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6719309805003BAD15 /* btnRememberMe.png */; };
+		C5A01C6C19309805003BAD15 /* btnRememberMe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6819309805003BAD15 /* btnRememberMe@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A01C4319304FB8003BAD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A01C1B19304FB8003BAD15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A01C2219304FB8003BAD15;
+			remoteInfo = CafePOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C22B2291193EBB60006AA4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C22B2293193EBB78006AA4C7 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C57E03D1193980FF00CD84EC /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		C5A01C2319304FB8003BAD15 /* CafePOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafePOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A01C2619304FB8003BAD15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5A01C2819304FB8003BAD15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5A01C2A19304FB8003BAD15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5A01C2E19304FB8003BAD15 /* CafePOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CafePOS-Info.plist"; sourceTree = "<group>"; };
+		C5A01C3219304FB8003BAD15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5A01C3419304FB8003BAD15 /* CafePOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CafePOS-Prefix.pch"; sourceTree = "<group>"; };
+		C5A01C3519304FB8003BAD15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5A01C3619304FB8003BAD15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5A01C3819304FB8003BAD15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5A01C3E19304FB8003BAD15 /* CafePOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafePOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A01C3F19304FB8003BAD15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C5A01C4719304FB8003BAD15 /* CafePOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CafePOSTests-Info.plist"; sourceTree = "<group>"; };
+		C5A01C4919304FB8003BAD15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5A01C4B19304FB8003BAD15 /* CafePOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafePOSTests.m; sourceTree = "<group>"; };
+		C5A01C5619304FC7003BAD15 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5A01C5819307CDA003BAD15 /* bgLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgLogin.png; sourceTree = "<group>"; };
+		C5A01C5A19307D3E003BAD15 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		C5A01C5B19307D3E003BAD15 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		C5A01C5F19308919003BAD15 /* bgLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgLogin@2x.png"; sourceTree = "<group>"; };
+		C5A01C6119308EE2003BAD15 /* imgLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgLogo.png; sourceTree = "<group>"; };
+		C5A01C6219308EE2003BAD15 /* imgLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgLogo@2x.png"; sourceTree = "<group>"; };
+		C5A01C6519309804003BAD15 /* btnRememberMe_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRememberMe_Selected.png; sourceTree = "<group>"; };
+		C5A01C6619309805003BAD15 /* btnRememberMe_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRememberMe_Selected@2x.png"; sourceTree = "<group>"; };
+		C5A01C6719309805003BAD15 /* btnRememberMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRememberMe.png; sourceTree = "<group>"; };
+		C5A01C6819309805003BAD15 /* btnRememberMe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRememberMe@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A01C2019304FB8003BAD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A01C2919304FB8003BAD15 /* CoreGraphics.framework in Frameworks */,
+				C5A01C2B19304FB8003BAD15 /* UIKit.framework in Frameworks */,
+				C5A01C2719304FB8003BAD15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A01C3B19304FB8003BAD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A01C4019304FB8003BAD15 /* XCTest.framework in Frameworks */,
+				C5A01C4219304FB8003BAD15 /* UIKit.framework in Frameworks */,
+				C5A01C4119304FB8003BAD15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A01C1A19304FB8003BAD15 = {
+			isa = PBXGroup;
+			children = (
+				C5A01C2C19304FB8003BAD15 /* CafePOS */,
+				C5A01C4519304FB8003BAD15 /* CafePOSTests */,
+				C5A01C2519304FB8003BAD15 /* Frameworks */,
+				C5A01C2419304FB8003BAD15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A01C2419304FB8003BAD15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C2319304FB8003BAD15 /* CafePOS.app */,
+				C5A01C3E19304FB8003BAD15 /* CafePOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A01C2519304FB8003BAD15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C2619304FB8003BAD15 /* Foundation.framework */,
+				C5A01C2819304FB8003BAD15 /* CoreGraphics.framework */,
+				C5A01C2A19304FB8003BAD15 /* UIKit.framework */,
+				C5A01C3F19304FB8003BAD15 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A01C2C19304FB8003BAD15 /* CafePOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C5719307CDA003BAD15 /* images */,
+				C5A01C3519304FB8003BAD15 /* AppDelegate.h */,
+				C5A01C3619304FB8003BAD15 /* AppDelegate.m */,
+				C5A01C3819304FB8003BAD15 /* Images.xcassets */,
+				C5A01C2D19304FB8003BAD15 /* Supporting Files */,
+				C5A01C5A19307D3E003BAD15 /* LoginController.h */,
+				C5A01C5B19307D3E003BAD15 /* LoginController.m */,
+				C57E03D1193980FF00CD84EC /* LoginController.xib */,
+			);
+			path = CafePOS;
+			sourceTree = "<group>";
+		};
+		C5A01C2D19304FB8003BAD15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C2E19304FB8003BAD15 /* CafePOS-Info.plist */,
+				C5A01C3219304FB8003BAD15 /* main.m */,
+				C5A01C3419304FB8003BAD15 /* CafePOS-Prefix.pch */,
+				C22B2292193EBB60006AA4C7 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5A01C4519304FB8003BAD15 /* CafePOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C4B19304FB8003BAD15 /* CafePOSTests.m */,
+				C5A01C4619304FB8003BAD15 /* Supporting Files */,
+			);
+			path = CafePOSTests;
+			sourceTree = "<group>";
+		};
+		C5A01C4619304FB8003BAD15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C4719304FB8003BAD15 /* CafePOSTests-Info.plist */,
+				C5A01C4819304FB8003BAD15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5A01C5719307CDA003BAD15 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C6519309804003BAD15 /* btnRememberMe_Selected.png */,
+				C5A01C6619309805003BAD15 /* btnRememberMe_Selected@2x.png */,
+				C5A01C6719309805003BAD15 /* btnRememberMe.png */,
+				C5A01C6819309805003BAD15 /* btnRememberMe@2x.png */,
+				C5A01C6119308EE2003BAD15 /* imgLogo.png */,
+				C5A01C6219308EE2003BAD15 /* imgLogo@2x.png */,
+				C5A01C5F19308919003BAD15 /* bgLogin@2x.png */,
+				C5A01C5819307CDA003BAD15 /* bgLogin.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A01C2219304FB8003BAD15 /* CafePOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A01C4F19304FB8003BAD15 /* Build configuration list for PBXNativeTarget "CafePOS" */;
+			buildPhases = (
+				C5A01C1F19304FB8003BAD15 /* Sources */,
+				C5A01C2019304FB8003BAD15 /* Frameworks */,
+				C5A01C2119304FB8003BAD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafePOS;
+			productName = CafePOS;
+			productReference = C5A01C2319304FB8003BAD15 /* CafePOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5A01C3D19304FB8003BAD15 /* CafePOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A01C5219304FB8003BAD15 /* Build configuration list for PBXNativeTarget "CafePOSTests" */;
+			buildPhases = (
+				C5A01C3A19304FB8003BAD15 /* Sources */,
+				C5A01C3B19304FB8003BAD15 /* Frameworks */,
+				C5A01C3C19304FB8003BAD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A01C4419304FB8003BAD15 /* PBXTargetDependency */,
+			);
+			name = CafePOSTests;
+			productName = CafePOSTests;
+			productReference = C5A01C3E19304FB8003BAD15 /* CafePOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A01C1B19304FB8003BAD15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___NhuanQuang___";
+				TargetAttributes = {
+					C5A01C3D19304FB8003BAD15 = {
+						TestTargetID = C5A01C2219304FB8003BAD15;
+					};
+				};
+			};
+			buildConfigurationList = C5A01C1E19304FB8003BAD15 /* Build configuration list for PBXProject "CafePOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				vi,
+			);
+			mainGroup = C5A01C1A19304FB8003BAD15;
+			productRefGroup = C5A01C2419304FB8003BAD15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A01C2219304FB8003BAD15 /* CafePOS */,
+				C5A01C3D19304FB8003BAD15 /* CafePOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A01C2119304FB8003BAD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57E03D2193980FF00CD84EC /* LoginController.xib in Resources */,
+				C5A01C6B19309805003BAD15 /* btnRememberMe.png in Resources */,
+				C22B2290193EBB60006AA4C7 /* Localizable.strings in Resources */,
+				C5A01C601930891A003BAD15 /* bgLogin@2x.png in Resources */,
+				C5A01C6919309805003BAD15 /* btnRememberMe_Selected.png in Resources */,
+				C5A01C5919307CDA003BAD15 /* bgLogin.png in Resources */,
+				C5A01C6C19309805003BAD15 /* btnRememberMe@2x.png in Resources */,
+				C5A01C6A19309805003BAD15 /* btnRememberMe_Selected@2x.png in Resources */,
+				C5A01C6319308EE2003BAD15 /* imgLogo.png in Resources */,
+				C5A01C6419308EE2003BAD15 /* imgLogo@2x.png in Resources */,
+				C5A01C3919304FB8003BAD15 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A01C3C19304FB8003BAD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A01C4A19304FB8003BAD15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A01C1F19304FB8003BAD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A01C3719304FB8003BAD15 /* AppDelegate.m in Sources */,
+				C5A01C3319304FB8003BAD15 /* main.m in Sources */,
+				C5A01C5D19307D3E003BAD15 /* LoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A01C3A19304FB8003BAD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A01C4C19304FB8003BAD15 /* CafePOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A01C4419304FB8003BAD15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A01C2219304FB8003BAD15 /* CafePOS */;
+			targetProxy = C5A01C4319304FB8003BAD15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C22B2292193EBB60006AA4C7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22B2291193EBB60006AA4C7 /* en */,
+				C22B2293193EBB78006AA4C7 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C5A01C4819304FB8003BAD15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A01C4919304FB8003BAD15 /* en */,
+				C5A01C5619304FC7003BAD15 /* vi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5A01C4D19304FB8003BAD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C5A01C4E19304FB8003BAD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A01C5019304FB8003BAD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CafePOS/CafePOS-Prefix.pch";
+				INFOPLIST_FILE = "CafePOS/CafePOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5A01C5119304FB8003BAD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CafePOS/CafePOS-Prefix.pch";
+				INFOPLIST_FILE = "CafePOS/CafePOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C5A01C5319304FB8003BAD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CafePOS.app/CafePOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CafePOS/CafePOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CafePOSTests/CafePOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C5A01C5419304FB8003BAD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CafePOS.app/CafePOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CafePOS/CafePOS-Prefix.pch";
+				INFOPLIST_FILE = "CafePOSTests/CafePOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A01C1E19304FB8003BAD15 /* Build configuration list for PBXProject "CafePOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A01C4D19304FB8003BAD15 /* Debug */,
+				C5A01C4E19304FB8003BAD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A01C4F19304FB8003BAD15 /* Build configuration list for PBXNativeTarget "CafePOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A01C5019304FB8003BAD15 /* Debug */,
+				C5A01C5119304FB8003BAD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A01C5219304FB8003BAD15 /* Build configuration list for PBXNativeTarget "CafePOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A01C5319304FB8003BAD15 /* Debug */,
+				C5A01C5419304FB8003BAD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A01C1B19304FB8003BAD15 /* Project object */;
+}

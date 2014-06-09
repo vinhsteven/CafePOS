@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  CafePOS
+
+  Created by Steven on 6/4/14.
+  Copyright (c) 2014 ___NhuanQuang___. All rights reserved.
+*/
+
+"username" = "Username";
+"password" = "Password";
+"remember_me" = "Remember me";
+"forgot_password" = "Forgot password?";
+"login" = "Login";

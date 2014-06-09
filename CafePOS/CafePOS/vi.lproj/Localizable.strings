@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  CafePOS
+
+  Created by Steven on 6/4/14.
+  Copyright (c) 2014 ___NhuanQuang___. All rights reserved.
+*/
+
+"username" = "Tên đăng nhập";
+"password" = "Mật khẩu";
+"remember_me" = "Ghi nhớ";
+"forgot_password" = "Quên mật khẩu?";
+"login" = "Đăng nhập";
