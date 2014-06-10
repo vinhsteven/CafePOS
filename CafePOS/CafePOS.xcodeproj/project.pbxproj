@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C22B2290193EBB60006AA4C7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C22B2292193EBB60006AA4C7 /* Localizable.strings */; };
+		C516C83C19476C0D0059963E /* CashierController.m in Sources */ = {isa = PBXBuildFile; fileRef = C516C83419476C0D0059963E /* CashierController.m */; };
+		C516C83D19476C0D0059963E /* CashierController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C516C83519476C0D0059963E /* CashierController.xib */; };
+		C516C83E19476C0D0059963E /* ItemOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C516C83719476C0D0059963E /* ItemOrderViewController.m */; };
+		C516C83F19476C0D0059963E /* ItemOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C516C83819476C0D0059963E /* ItemOrderViewController.xib */; };
+		C516C84019476C0D0059963E /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C516C83A19476C0D0059963E /* OrderViewController.m */; };
+		C516C84119476C0D0059963E /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C516C83B19476C0D0059963E /* OrderViewController.xib */; };
 		C57E03D2193980FF00CD84EC /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57E03D1193980FF00CD84EC /* LoginController.xib */; };
 		C5A01C2719304FB8003BAD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2619304FB8003BAD15 /* Foundation.framework */; };
 		C5A01C2919304FB8003BAD15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2819304FB8003BAD15 /* CoreGraphics.framework */; };
@@ -44,6 +50,15 @@
 /* Begin PBXFileReference section */
 		C22B2291193EBB60006AA4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C22B2293193EBB78006AA4C7 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C516C83319476C0D0059963E /* CashierController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashierController.h; sourceTree = "<group>"; };
+		C516C83419476C0D0059963E /* CashierController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashierController.m; sourceTree = "<group>"; };
+		C516C83519476C0D0059963E /* CashierController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashierController.xib; sourceTree = "<group>"; };
+		C516C83619476C0D0059963E /* ItemOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemOrderViewController.h; sourceTree = "<group>"; };
+		C516C83719476C0D0059963E /* ItemOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemOrderViewController.m; sourceTree = "<group>"; };
+		C516C83819476C0D0059963E /* ItemOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemOrderViewController.xib; sourceTree = "<group>"; };
+		C516C83919476C0D0059963E /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		C516C83A19476C0D0059963E /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		C516C83B19476C0D0059963E /* OrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderViewController.xib; sourceTree = "<group>"; };
 		C57E03D1193980FF00CD84EC /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 		C5A01C2319304FB8003BAD15 /* CafePOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafePOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A01C2619304FB8003BAD15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +112,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C516C83219476C0D0059963E /* Cashier */ = {
+			isa = PBXGroup;
+			children = (
+				C516C83319476C0D0059963E /* CashierController.h */,
+				C516C83419476C0D0059963E /* CashierController.m */,
+				C516C83519476C0D0059963E /* CashierController.xib */,
+				C516C83619476C0D0059963E /* ItemOrderViewController.h */,
+				C516C83719476C0D0059963E /* ItemOrderViewController.m */,
+				C516C83819476C0D0059963E /* ItemOrderViewController.xib */,
+				C516C83919476C0D0059963E /* OrderViewController.h */,
+				C516C83A19476C0D0059963E /* OrderViewController.m */,
+				C516C83B19476C0D0059963E /* OrderViewController.xib */,
+			);
+			path = Cashier;
+			sourceTree = "<group>";
+		};
 		C5A01C1A19304FB8003BAD15 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +161,7 @@
 		C5A01C2C19304FB8003BAD15 /* CafePOS */ = {
 			isa = PBXGroup;
 			children = (
+				C516C83219476C0D0059963E /* Cashier */,
 				C5A01C5719307CDA003BAD15 /* images */,
 				C5A01C3519304FB8003BAD15 /* AppDelegate.h */,
 				C5A01C3619304FB8003BAD15 /* AppDelegate.m */,
@@ -267,11 +299,14 @@
 				C22B2290193EBB60006AA4C7 /* Localizable.strings in Resources */,
 				C5A01C601930891A003BAD15 /* bgLogin@2x.png in Resources */,
 				C5A01C6919309805003BAD15 /* btnRememberMe_Selected.png in Resources */,
+				C516C83D19476C0D0059963E /* CashierController.xib in Resources */,
 				C5A01C5919307CDA003BAD15 /* bgLogin.png in Resources */,
+				C516C84119476C0D0059963E /* OrderViewController.xib in Resources */,
 				C5A01C6C19309805003BAD15 /* btnRememberMe@2x.png in Resources */,
 				C5A01C6A19309805003BAD15 /* btnRememberMe_Selected@2x.png in Resources */,
 				C5A01C6319308EE2003BAD15 /* imgLogo.png in Resources */,
 				C5A01C6419308EE2003BAD15 /* imgLogo@2x.png in Resources */,
+				C516C83F19476C0D0059963E /* ItemOrderViewController.xib in Resources */,
 				C5A01C3919304FB8003BAD15 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A01C3719304FB8003BAD15 /* AppDelegate.m in Sources */,
+				C516C84019476C0D0059963E /* OrderViewController.m in Sources */,
+				C516C83C19476C0D0059963E /* CashierController.m in Sources */,
 				C5A01C3319304FB8003BAD15 /* main.m in Sources */,
 				C5A01C5D19307D3E003BAD15 /* LoginController.m in Sources */,
+				C516C83E19476C0D0059963E /* ItemOrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
