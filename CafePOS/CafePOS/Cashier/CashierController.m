@@ -32,6 +32,7 @@
 }
 - (void) viewWillAppear:(BOOL)animated
 {
+    // draw view
     // add order view
     orderController = [[OrderViewController alloc]initWithNibName:@"OrderViewController" bundle:nil];
     [orderController.view setFrame:CGRectMake(680,64, 315.0f, 748.0f)];
