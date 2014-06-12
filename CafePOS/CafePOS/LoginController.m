@@ -8,6 +8,7 @@
 
 #import "LoginController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "CashierController.h"
 
 @interface LoginController ()
 
@@ -84,14 +85,19 @@
     [btnLogin setBackgroundColor:[UIColor colorWithRed:46.0f/255 green:23.0f/255 blue:1.0f/255 alpha:1.0f]];
     btnLogin.layer.cornerRadius = 5;
     btnLogin.layer.masksToBounds = YES;
+    [btnLogin addTarget:self action:@selector(loginAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btnLogin];
 }
+
+- (void) loginAction {
+    CashierController *controller = [[CashierController alloc] initWithNibName:@"CashierController" bundle:nil];
+    [self presentViewController:controller animated:YES completion:nil];
+}
+
 - (NSUInteger)supportedInterfaceOrientations
 
 {
-    
     return UIInterfaceOrientationMaskLandscapeLeft|UIInterfaceOrientationLandscapeRight;
-    
 }
 - (void)viewDidLoad
 {
